@@ -15,14 +15,19 @@ export class AppComponent implements OnInit {
 
   private _hubConnection: HubConnection;
 
-  data = [
+  protected data:any[] = [
     ['Label', 'Value'],
     ['Memory', 0],
     ['CPU', 0],
     ['Network', 0]
   ];
-  config: any;
-  elementId: String;
+  protected elementId:String = "Gauge1";
+  protected config:any = {
+    width: 400, height: 120,
+    redFrom: 90, redTo: 100,
+    yellowFrom:75, yellowTo: 90,
+    minorTicks: 5
+  };
 
 
   constructor() {
@@ -47,8 +52,6 @@ export class AppComponent implements OnInit {
       ];
     });
     
-    this.elementId = "Gauge1";
-    this.config = [];
   }
 
 }

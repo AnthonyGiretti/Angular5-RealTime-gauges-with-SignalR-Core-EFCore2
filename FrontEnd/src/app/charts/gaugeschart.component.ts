@@ -20,8 +20,10 @@ export class GaugesChartComponent implements OnInit, OnChanges {
 
     /* Only chart data !!!!!!! */
     ngOnChanges(changes) {
-        this.data = changes.data.currentValue;
-        this._gaugesChartService.BuildGaugesChart(this.elementId, this.data, this.config);
+        if (changes.data != undefined) {
+            this.data = changes.data.currentValue;
+            this._gaugesChartService.BuildGaugesChart(this.elementId, this.data, this.config);
+        }      
     }
 
     ngOnInit(): void {
