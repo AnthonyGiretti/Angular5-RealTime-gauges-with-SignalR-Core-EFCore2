@@ -1,0 +1,11 @@
+C:\DEV\Angular5-SignalRCore-EFCore2-GoogleCharts\BackEnd\SignalrCoreDemoWithSqlTableDependency\bin\Debug\netcoreapp2.0\SignalrCoreDemoWithSqlTableDependency.deps.json
+C:\DEV\Angular5-SignalRCore-EFCore2-GoogleCharts\BackEnd\SignalrCoreDemoWithSqlTableDependency\bin\Debug\netcoreapp2.0\SignalrCoreDemoWithSqlTableDependency.runtimeconfig.json
+C:\DEV\Angular5-SignalRCore-EFCore2-GoogleCharts\BackEnd\SignalrCoreDemoWithSqlTableDependency\bin\Debug\netcoreapp2.0\SignalrCoreDemoWithSqlTableDependency.runtimeconfig.dev.json
+C:\DEV\Angular5-SignalRCore-EFCore2-GoogleCharts\BackEnd\SignalrCoreDemoWithSqlTableDependency\bin\Debug\netcoreapp2.0\SignalrCoreDemoWithSqlTableDependency.dll
+C:\DEV\Angular5-SignalRCore-EFCore2-GoogleCharts\BackEnd\SignalrCoreDemoWithSqlTableDependency\obj\Debug\netcoreapp2.0\SignalrCoreDemoWithSqlTableDependency.csprojResolveAssemblyReference.cache
+C:\DEV\Angular5-SignalRCore-EFCore2-GoogleCharts\BackEnd\SignalrCoreDemoWithSqlTableDependency\obj\Debug\netcoreapp2.0\SignalrCoreDemoWithSqlTableDependency.csproj.CoreCompileInputs.cache
+C:\DEV\Angular5-SignalRCore-EFCore2-GoogleCharts\BackEnd\SignalrCoreDemoWithSqlTableDependency\obj\Debug\netcoreapp2.0\SignalrCoreDemoWithSqlTableDependency.AssemblyInfoInputs.cache
+C:\DEV\Angular5-SignalRCore-EFCore2-GoogleCharts\BackEnd\SignalrCoreDemoWithSqlTableDependency\obj\Debug\netcoreapp2.0\SignalrCoreDemoWithSqlTableDependency.AssemblyInfo.cs
+C:\DEV\Angular5-SignalRCore-EFCore2-GoogleCharts\BackEnd\SignalrCoreDemoWithSqlTableDependency\bin\Debug\netcoreapp2.0\SignalrCoreDemoWithSqlTableDependency.pdb
+C:\DEV\Angular5-SignalRCore-EFCore2-GoogleCharts\BackEnd\SignalrCoreDemoWithSqlTableDependency\obj\Debug\netcoreapp2.0\SignalrCoreDemoWithSqlTableDependency.dll
+C:\DEV\Angular5-SignalRCore-EFCore2-GoogleCharts\BackEnd\SignalrCoreDemoWithSqlTableDependency\obj\Debug\netcoreapp2.0\SignalrCoreDemoWithSqlTableDependency.pdb
