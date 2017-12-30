@@ -41,3 +41,13 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+BackEnd/.vs/SignalrCoreDemoWithSqlTableDependency/v15/Server/sqlite3/db.lock
+BackEnd/.vs/config/applicationhost.config
+BackEnd/.vs/SignalrCoreDemoWithSqlTableDependency/v15/.suo
+BackEnd/.vs/SignalrCoreDemoWithSqlTableDependency/v15/Server/sqlite3/storage.ide
+BackEnd/.vs/SignalrCoreDemoWithSqlTableDependency/v15/Server/sqlite3/storage.ide-shm
+BackEnd/.vs/SignalrCoreDemoWithSqlTableDependency/v15/Server/sqlite3/storage.ide-wal
+BackEnd/.vs/SignalrCoreDemoWithSqlTableDependency/v15/Server/sqlite3/storage.ide-shm
+BackEnd/.vs/SignalrCoreDemoWithSqlTableDependency/v15/Server/sqlite3/db.lock
+BackEnd/.vs/SignalrCoreDemoWithSqlTableDependency/v15/Server/sqlite3/storage.ide
+BackEnd/.vs/SignalrCoreDemoWithSqlTableDependency/v15/Server/sqlite3/storage.ide-wal
