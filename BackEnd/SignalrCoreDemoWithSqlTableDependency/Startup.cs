@@ -8,7 +8,6 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using SignalRCore.Web.EndPoints;
 using SignalrCoreDemoWithSqlTableDependency.EF;
 using SignalrCoreDemoWithSqlTableDependency.Hubs;
 using SignalrCoreDemoWithSqlTableDependency.Repository;
@@ -25,7 +24,6 @@ namespace SignalrCoreDemoWithSqlTableDependency
         {
             services.AddMvc();
             services.AddSignalR();
-            services.AddEndPoint<MessagesEndPoint>();
 
             // dependency injection
             services.AddDbContextFactory<GaugeContext>(ConnectionString);
@@ -61,10 +59,10 @@ namespace SignalrCoreDemoWithSqlTableDependency
                 routes.MapHub<GaugeHub>("gauges");
             });
 
-            app.UseSockets(routes =>
-            {
-                routes.MapEndPoint<MessagesEndPoint>("message");
-            });
+            //app.UseSockets(routes =>
+            //{
+            //    routes.MapEndPoint<MessagesEndPoint>("message");
+            //});
 
             app.UseMvc(routes =>
             {

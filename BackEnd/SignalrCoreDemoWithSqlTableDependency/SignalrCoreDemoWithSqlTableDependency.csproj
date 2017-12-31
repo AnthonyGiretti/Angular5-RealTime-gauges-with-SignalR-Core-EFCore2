@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="EndPoints\**" />
+    <Content Remove="EndPoints\**" />
+    <EmbeddedResource Remove="EndPoints\**" />
+    <None Remove="EndPoints\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
