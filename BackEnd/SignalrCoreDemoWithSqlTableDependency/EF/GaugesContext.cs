@@ -1,9 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SignalrCoreDemoWithSqlTableDependency.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace SignalrCoreDemoWithSqlTableDependency.EF
 {

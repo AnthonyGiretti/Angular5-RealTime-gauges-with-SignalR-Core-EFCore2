@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.SignalR;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using SignalrCoreDemoWithSqlTableDependency.EF;
 using SignalrCoreDemoWithSqlTableDependency.Hubs;
@@ -58,11 +53,6 @@ namespace SignalrCoreDemoWithSqlTableDependency
             {
                 routes.MapHub<GaugeHub>("gauges");
             });
-
-            //app.UseSockets(routes =>
-            //{
-            //    routes.MapEndPoint<MessagesEndPoint>("message");
-            //});
 
             app.UseMvc(routes =>
             {
