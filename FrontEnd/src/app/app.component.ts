@@ -15,14 +15,14 @@ export class AppComponent implements OnInit {
 
   private _hubConnection: HubConnection;
 
-  protected data:any[] = [
+  public data:any[] = [
     ['Label', 'Value'],
     ['Memory', 0],
     ['CPU', 0],
     ['Network', 0]
   ];
-  protected elementId:String = "Gauge1";
-  protected config:any = {
+  public elementId:String = "Gauge1";
+  public config:any = {
     width: 400, height: 120,
     redFrom: 90, redTo: 100,
     yellowFrom:75, yellowTo: 90,
