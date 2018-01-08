@@ -12,7 +12,7 @@ namespace SignalrCoreDemoWithSqlTableDependency
 {
     public class Startup
     {
-        private const string ConnectionString = @"Data Source=(LocalDb)\MSSQLLocalDB;Initial Catalog=SignalRDemo;Integrated Security=SSPI;";
+        private const string ConnectionString = @"Data Source=(LocalDb)\MSSQLLocalDB;Initial Catalog=SignalRDemo;User Id=demo;Password=demo;";
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)

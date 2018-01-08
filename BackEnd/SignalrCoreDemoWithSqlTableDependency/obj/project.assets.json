@@ -12044,7 +12044,7 @@
       ]
     },
     "System.Text.Encoding.CodePages/4.4.0": {
-      "sha512": "6JX7ZdaceBiLKLkYt8zJcp4xTJd1uYyXXEkPw6mnlUIjh1gZPIVKPtRXPmY5kLf6DwZmf5YLwR3QUrRonl7l0A==",
+      "sha512": "/ttxAs+oMH7XVM1CWHHs5rqkf8KUWRdOG62fvW/WYVAZmJ+/gNxDs8VVWWriLwmrescUp8fCkRHHhmD675N59w==",
       "type": "package",
       "path": "system.text.encoding.codepages/4.4.0",
       "files": [
@@ -12999,7 +12999,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\antho\\.nuget\\packages\\": {},
+    "C:\\Users\\Anthony.Giretti\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -13008,17 +13008,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\DEV\\Angular5-SignalRCore-EFCore2-GoogleCharts\\BackEnd\\SignalrCoreDemoWithSqlTableDependency\\SignalrCoreDemoWithSqlTableDependency.csproj",
+      "projectUniqueName": "C:\\MSDEVMTL\\Angular5-RealTime-gauges-with-SignalR-Core-EFCore2\\BackEnd\\SignalrCoreDemoWithSqlTableDependency\\SignalrCoreDemoWithSqlTableDependency.csproj",
       "projectName": "SignalrCoreDemoWithSqlTableDependency",
-      "projectPath": "C:\\DEV\\Angular5-SignalRCore-EFCore2-GoogleCharts\\BackEnd\\SignalrCoreDemoWithSqlTableDependency\\SignalrCoreDemoWithSqlTableDependency.csproj",
-      "packagesPath": "C:\\Users\\antho\\.nuget\\packages\\",
-      "outputPath": "C:\\DEV\\Angular5-SignalRCore-EFCore2-GoogleCharts\\BackEnd\\SignalrCoreDemoWithSqlTableDependency\\obj\\",
+      "projectPath": "C:\\MSDEVMTL\\Angular5-RealTime-gauges-with-SignalR-Core-EFCore2\\BackEnd\\SignalrCoreDemoWithSqlTableDependency\\SignalrCoreDemoWithSqlTableDependency.csproj",
+      "packagesPath": "C:\\Users\\Anthony.Giretti\\.nuget\\packages\\",
+      "outputPath": "C:\\MSDEVMTL\\Angular5-RealTime-gauges-with-SignalR-Core-EFCore2\\BackEnd\\SignalrCoreDemoWithSqlTableDependency\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\antho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Anthony.Giretti\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13042,30 +13042,30 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.All": {
-            "target": "Package",
-            "version": "[2.0.3, )"
-          },
-          "Microsoft.AspNetCore.SignalR": {
-            "target": "Package",
-            "version": "[1.0.0-alpha2-final, )"
-          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[2.0.1, )"
-          },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
-            "target": "Package",
-            "version": "[2.0.1, )"
+            "version": "2.0.1"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0.0",
             "autoReferenced": true
           },
           "SqlTableDependency": {
             "target": "Package",
-            "version": "[6.1.0, )"
+            "version": "6.1.0"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "2.0.1"
+          },
+          "Microsoft.AspNetCore.All": {
+            "target": "Package",
+            "version": "2.0.3"
+          },
+          "Microsoft.AspNetCore.SignalR": {
+            "target": "Package",
+            "version": "1.0.0-alpha2-final"
           }
         },
         "imports": [
@@ -13081,7 +13081,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Le package 'SqlTableDependency 6.1.0' a été restauré en utilisant '.NETFramework,Version=v4.6.1' au lieu du framework cible du projet '.NETCoreApp,Version=v2.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "message": "Package 'SqlTableDependency 6.1.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "SqlTableDependency",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.0"
