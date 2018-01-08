@@ -4,8 +4,8 @@
 
 ## Setup SQL Database
 
-### Enable service broker
-```ALTER DATABASE SignalRDemo SET ENABLE_BROKER with rollback immediate```
+### Create Database
+```CREATE DATABASE SignalRDemo;```
 
 ### Create SQL table for the project
 ```
@@ -33,7 +33,12 @@ CREATE TABLE [dbo].[GaugesData](
 GO
 ```
 
+### Enable service broker
+```ALTER DATABASE SignalRDemo SET ENABLE_BROKER with rollback immediate```
+
 Then populate table with data (minimum 0, maximum 100)
+
+<strong>You may have some issues with service broker when you use Windows Authentification</strong>, notifications from database might not be fired, then use a SQL Server login / password authentification
 
 ## Setup Angular project
 
