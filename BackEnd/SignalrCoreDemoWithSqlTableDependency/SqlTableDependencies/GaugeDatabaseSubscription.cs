@@ -41,7 +41,6 @@ namespace SignalrCoreDemoWithSqlTableDependency.SqlTableDependencies
         {
             if (e.ChangeType != ChangeType.None)
             {
-                // TODO: manage the changed entity
                 var changedEntity = e.Entity;
                 _hubContext.Clients.All.InvokeAsync("GetGaugesData", _repository.Gauge);
             }
