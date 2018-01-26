@@ -7,7 +7,7 @@ namespace SignalrCoreDemoWithSqlTableDependency.Repository
 {
     public class GaugeRepository : IGaugeRepository
     {
-        private Func<GaugeContext> _contextFactory;
+        private readonly Func<GaugeContext> _contextFactory;
 
         public Gauge Gauge => GetGauge();
 

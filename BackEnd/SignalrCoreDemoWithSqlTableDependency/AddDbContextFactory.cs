@@ -6,15 +6,15 @@ namespace SignalrCoreDemoWithSqlTableDependency
 {
     public static class AddDbContextFactoryHelper
     {
-        public static void AddDbContextFactory<DataContext>(this IServiceCollection services, string connectionString) where DataContext : DbContext
+        public static void AddDbContextFactory<TDataContext>(this IServiceCollection services, string connectionString) where TDataContext : DbContext
         {
-            services.AddSingleton<Func<DataContext>>((ctx) =>
+            services.AddSingleton<Func<TDataContext>>((ctx) =>
             {
-                var options = new DbContextOptionsBuilder<DataContext>()
+                var options = new DbContextOptionsBuilder<TDataContext>()
                     .UseSqlServer(connectionString)
                     .Options;
 
-                return () => (DataContext)Activator.CreateInstance(typeof(DataContext), options);
+                return () => (TDataContext)Activator.CreateInstance(typeof(TDataContext), options);
             });
         }
     }
