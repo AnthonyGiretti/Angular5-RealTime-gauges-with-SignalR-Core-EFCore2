@@ -4,6 +4,9 @@
 
 ## Setup SQL Database
 
+For an easy setup with SQL SERVER, I recommand to use LocalDB, installed automatically since Visual Studio 2012
+Use for example SQL Management Studio V12+ top type this serie of commands:
+
 ### Create Database
 ```CREATE DATABASE SignalRDemo;```
 
